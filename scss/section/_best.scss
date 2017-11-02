@@ -1,0 +1,15 @@
+.best {
+    background-image: url('../img/bg/best-bg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section__title--best {
+    color: #2f3234;
+    padding: 0;
+    margin-bottom: rem(60px);
+  }

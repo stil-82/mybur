@@ -35,7 +35,7 @@
       display: inline-block;
       vertical-align: middle;
       content: ' ';
-      @include circle(5px, #0ff);
+      @include circle(5px, #fff);
       margin: 0 12px;
     }
     &:last-child:after {

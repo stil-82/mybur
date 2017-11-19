@@ -1,0 +1,54 @@
+.order{
+    background: url("/img/content/order/order__bg.jpg") center center no-repeat;
+    background-size: cover 
+}
+
+.form__block-name{
+    color: #fff;
+}
+
+.form__content{
+    display: flex;
+}
+
+.form__input{
+    border-radius: 5px;
+    border:none;
+    padding: 5px;
+    width: 100%;
+}
+
+.form__textarea{
+    border-radius: 5px;
+    border:none;
+    padding: 5px;
+    width: 100%;
+}
+
+.form__section{
+    width: 50%;
+    padding: 20px;
+}
+
+.form__row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__block{
+    flex: 1;
+    margin-right: 20px;
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.form__block-checkbox {
+    width: 11px;
+    height: 11px;
+    background: url("../img/general/check.png") center no-repeat;
+    left: 3.5px;
+    top: 1.5px;
+  }
+

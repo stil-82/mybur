@@ -1,0 +1,30 @@
+.menu{
+
+}
+
+.menu__list {
+    display: flex;
+  }
+  
+  .menu__item {
+    display: flex;
+    //transform: rotate(-90deg);
+    width: 85px;
+    overflow: hidden;
+    transition: all 0.2s linear;
+  }
+
+  .menu__item-myas{
+    background: url("../img/content/menu/menu__1.jpg") center no-repeat;
+    background-size: cover;
+  }
+
+  .menu__item-veget{
+    background: url("../img/content/menu/menu__2.jpg") center no-repeat;
+    background-size: cover;
+  }
+
+  .menu__item-diet{
+    background: url("../img/content/menu/menu__3.jpg") center no-repeat;
+    background-size: cover;
+  }

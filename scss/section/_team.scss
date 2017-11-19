@@ -1,5 +1,5 @@
 .team {
-    background: url('../img/bg/team.png') center center no-repeat;
+    background: url('../img/content/team/team_bg.jpg') center center no-repeat;
     background-size: cover;
     position: relative;
   }
@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-  }
+  } 
   
   .team-acco__trigger {
     color: #fff;
@@ -37,6 +37,10 @@
     display: flex;
   }
   
+  .team-acco__pic-img{
+    border-radius: 50%; 
+  }
+
   .team-acco__text {
     color: #fff;
   }
@@ -44,7 +48,7 @@
   .team-acco__content {
     display: none;
   }
-  
+
   .team-acco__item_active {
     .team-acco__trigger {
       color: $yellow;
